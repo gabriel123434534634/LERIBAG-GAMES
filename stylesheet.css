@@ -1,0 +1,97 @@
+#header {
+	background-color:#0078AA; 
+	position: relative;
+	left: -0.56vw;
+	width: 100vw;
+	top: -1.14vh;
+	padding: 1%;
+	padding-left: 5vw;
+	padding-bottom: 0vh;
+}
+#header h1{
+	display: block;
+	color: white;
+	position: relative;
+	margin-top: -10px;
+	margin-bottom:5px;
+}
+
+#header div {
+	display: inline-block;
+	position: relative;
+}
+
+#header div h3 {
+	display: block;
+	color: white;
+	position: relative;
+	margin-top:-5px;
+}
+
+#brasao_header {
+	width: 92px;
+	height: 66px;
+	position:relative;
+	margin-right: 2vw;
+	display:inline-block;
+	user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+}
+body {
+	overflow-x: hidden;
+	font-family: 'Open Sans Regular';
+	background-color: #ebf0f3;
+}
+
+#place_to_write {
+	text-align: center;
+	color: #054863;
+	position: relative;
+	margin-top: 15vh;
+}
+
+#place_to_write div {
+	background-color: white;
+	box-sizing: border-box;
+	padding-left:1%;
+	padding-right:1%;
+	padding-bottom: 1%;
+	position:relative;
+	width:50vw;
+	left: 25vw;
+	border-radius:10px;
+}
+
+#place_to_write div p {
+	font-size: 15pt;
+	font-weight: 900;
+	display:inline-block;
+}
+#place_to_write div input {
+	position: relative;
+	width: 20vw;
+	height: 5vh;
+	display: inline-block;
+	margin-top: 2vh;
+	border: solid 1px #0078AA;
+	outline: none;
+	border-radius:5px;
+}
+#place_to_write div input:focus{
+	background-color: #ebf0f3;
+	box-shadow: 1px 1px 5px #054863;
+}
+
+#place_to_write div button{
+	border:none;
+	background-color: #337ab7;
+	color: white;
+	font-size: 15pt;
+	padding: 1%;
+	position: relative;
+	border-radius: 5px;
+}
+#place_to_write div button:focus{
+	box-shadow: 1px 1px 5px #054863;
+}
